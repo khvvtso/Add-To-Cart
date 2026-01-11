@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "name": "Wireless Headphones",
+        "description": "High-quality wireless headphones with noise cancellation.",
+        "image": "assets\/images\/headphones.jpg",
+        "price": 99.99
+    },
+    {
+        "id": 2,
+        "name": "Smartphone Case",
+        "description": "Protective case for smartphones with anti-slip grip.",
+        "image": "assets\/images\/case.jpg",
+        "price": 19.99
+    },
+    {
+        "id": 3,
+        "name": "Laptop Stand",
+        "description": "Adjustable laptop stand for better ergonomics.",
+        "image": "assets\/images\/stand.jpg",
+        "price": 49.99
+    },
+    {
+        "id": 4,
+        "name": "Bluetooth Speaker",
+        "description": "Portable Bluetooth speaker with waterproof design.",
+        "image": "assets\/images\/speaker.jpg",
+        "price": 79.99
+    },
+    {
+        "id": 5,
+        "name": "USB Cable",
+        "description": "Fast charging USB cable compatible with multiple devices.",
+        "image": "assets\/images\/cable.jpg",
+        "price": 9.99
+    },
+    {
+        "id": 6,
+        "name": "Smart Watch",
+        "description": "Water proof smart watch with depth capabilities of up to 5 meters",
+        "image": "assets\/images\/695cd605cdf87.jpg",
+        "price": 200
+    },
+    {
+        "id": 7,
+        "name": "Smart Watch",
+        "description": "Best watch ever",
+        "image": "assets\/images\/695cec963d9a2.jpg",
+        "price": 200
+    },
+    {
+        "id": 8,
+        "name": "Wireless Headphones",
+        "description": "good quality",
+        "image": "assets\/images\/695cedc4886bc.jpg",
+        "price": 100
+    }
+]

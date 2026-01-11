@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create Product</title>
+
+   
+    <link rel="stylesheet" href="../css/style.css">
+
+    
+    <script src="../js/create.js" defer></script>
+</head>
+<body style="background: linear-gradient(135deg, #f0f4f8 0%, #e0e7ff 100%); min-height: 100vh;">
+  <div style="max-width: 600px; margin: 0 auto; animation: bgFadeIn 1.2s ease;">
+    <h2>Add Product</h2>
+    {{message}}
+    <form method="POST">
+        <label>
+            Name<br>
+            <input type="text" name="name" required>
+        </label>
+        <br><br>
+        <label>
+            Description<br>
+            <textarea name="description" required></textarea>
+        </label>
+        <br><br>
+        <label>
+            Image URL<br>
+            <input type="text" name="image" required>
+        </label>
+        <br><br>
+        <label>
+            Price<br>
+            <input type="number" name="price" step="0.01" required>
+        </label>
+        <br><br>
+        <button type="submit">Create Product</button>
+    </form>
+    <br>
+    <a href="../php/read.php">View Products</a>
+  </div>
+</body>
+</html>

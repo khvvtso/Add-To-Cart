@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Update Product</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body style="background: linear-gradient(135deg, #f0f4f8 0%, #e0e7ff 100%); min-height: 100vh;">
+  <div style="max-width: 600px; margin: 0 auto; animation: bgFadeIn 1.2s ease;">
+    <h2>Edit Product</h2>
+    {{message}}
+    <form method="POST">
+        <label>
+            Name<br>
+            <input type="text" name="name" value="{{name}}" required>
+        </label>
+        <br><br>
+        <label>
+            Description<br>
+            <textarea name="description" required>{{description}}</textarea>
+        </label>
+        <br><br>
+        <label>
+            Image<br>
+            <select name="image" required>
+                {{imageOptions}}
+            </select>
+        </label>
+        <br><br>
+        <label>
+            Price<br>
+            <input type="number" name="price" step="0.01" value="{{price}}" required>
+        </label>
+        <br><br>
+        <button type="submit">Update Product</button>
+    </form>
+    <br>
+    <a href="../index.php">Back to Products</a>
+  </div>
+</body>
+</html>
